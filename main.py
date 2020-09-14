@@ -32,6 +32,7 @@ def getEvens(nums):
 class TestEvenOddMethods(unittest.TestCase):
     def test_evens(self):
         self.assertEqual(getEvens(testList), [2, 4, 6, 8, 10])
+    def test_odds(self):
         self.assertEqual(getOdds(testList), [1, 3, 5, 7, 9])
 
 if __name__ == '__main__':
